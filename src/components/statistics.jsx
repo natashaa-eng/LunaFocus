@@ -13,14 +13,18 @@ export function Statistics() {
         </div>
   
         <main className="flex flex-col items-center justify-center py-4">
-          <h2 className="text-xl font-bold mb-4">Your average cycle length is</h2>
+          <h2 className="text-xl font-bold mb-4">Typical cycle length</h2>
           <p className="text-xl mb-8 text-center">28 days</p>
-  
-          <h2 className="text-xl font-bold mb-4">Your next predicted cycle will start on</h2>
-          <p className="text-xl mb-8 text-center">Fri, 5 July 2024</p>
+
+          <h2 className="text-xl font-bold mb-4">Typical period length</h2>
+          <p className="text-xl mb-8 text-center">7 days</p>
   
           <h2 className="text-xl font-bold mb-4">First day of last period</h2>
           <p className="text-xl mb-8 text-center">Fri, 7 June 2024</p>
+
+          <h2 className="text-xl font-bold mb-4">Your next predicted cycle begins on</h2>
+          <p className="text-xl mb-8 text-center">Fri, 5 July 2024</p>
+  
         </main>
       </div>
     );
